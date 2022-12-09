@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration</title>
+    <style>
+        h1 {text-align: center;}
+    </style>
+</head>
+
+<body>
+    <img src="Screenshot.jpg" alt="Trulli" width="150" height="150">
+    <h1>Friendship Zone</h1>
+    <h2>Add your details to register</h2>
+    <form action="user-confirmation.html" method="get">
+    <label for="name"><strong>Name:</strong></label>
+    <input type="text" placeholder="Enter your name" required minlength="3"><br><br>
+
+    <label for="email"><strong>Email:</strong></label>
+    <input type="email" required><br><br>
+
+    <label for="age"><strong>Age:</strong></label>
+    <input type="number" min="19" required><br><br>
+
+    <label for="Birth"><strong>Birth Day:</strong></label>
+    <input type="date"><br><br>
+
+    <label for="gender"><strong>Gender:</strong></label>
+    <input type="radio">M
+    <input type="radio">F<br><br>
+
+    <label for="about"><strong>About:</strong></label>
+    <textarea></textarea><br><br>
+
+    <label for="phone"><strong>Phone:</strong></label>
+    <input type="tel"><br><br>
+
+    <label for="intrest"><strong>Interested in:</strong></label>
+    <input type="checkbox" />Friendship
+    <input type="checkbox" />Dating
+    
+
+    <label for="file"><strong>Attachment:</strong></label>
+    <input type="file"><br><br>
+
+    <button type="submit" >Register</button>
+    <button type="submit" formaction="admin-confirmation.html ">Register as Admin</button>
+</form>
+</body>
+
+</html>
